@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sankalp.scorekeeper.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ref"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:text="TEAM A"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000"
+            android:textAlignment="center"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="80dp"
+            android:text="0"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:id="@+id/scoreA"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points +3"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/threeA"
+            android:onClick="plusthreeA"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points +2"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/twoA"
+            android:layout_marginTop="20dp"
+            android:onClick="plustwoA"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Throw"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/oneA"
+            android:layout_marginTop="20dp"
+            android:onClick="plusoneA"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:text="TEAM B"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#000"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="80dp"
+            android:text="0"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:id="@+id/scoreB"
+            />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Points +3"
+        android:textSize="20dp"
+        android:textAlignment="center"
+            android:id="@+id/threeB"
+            android:onClick="plusthreeB"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Points +2"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/twoB"
+            android:layout_marginTop="20dp"
+            android:onClick="plustwoB"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free Throw"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/oneB"
+            android:layout_marginTop="20dp"
+            android:onClick="plusoneB"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Reset"
+    android:id="@+id/reset"
+    android:textSize="20dp"
+    android:onClick="reset"/>
+</RelativeLayout>
