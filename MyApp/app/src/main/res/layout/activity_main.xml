@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sankalp.myapp.MainActivity">
+
+    <ImageView
+        android:src = "@drawable/udacity1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/mainimage"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="Udacity"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="650-555-5555"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="19.6sp"
+        android:padding="10dp"
+         />
+    <TextView
+        android:id="@+id/main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="www.udacity.com"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="19.6sp"
+        />
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="2465 Lanthum St. Mountain View CA 94098"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
